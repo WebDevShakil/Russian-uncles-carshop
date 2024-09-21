@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+    color: white;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.nav-container{
+    background-image: url(images/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu-btn{
+    background-color:#FF001D;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px 20px;
+}
+.logo img {
+    max-height: 26px;
+}
+.logo button{
+    padding: 15px 30px;
+    background-color: #FF001D;
+    color: aliceblue;
+    font-weight: 600;
+    margin-left: 100px;
+    display: none;
+}
+nav ul {
+    display: none;
+    text-align: center;
+    background-color: #FF001D;
+    
+    
+}
+nav ul li{
+    list-style: none;
+}
+.logo .exit{
+    text-align: center;
+    display: none ;
+    border:2px solid white;
+    margin: 0%;
+    padding: 2px;
+    border-radius: 5px;
+    border: none;    
+}
+.logo .exit img{
+    height: 100%;
+    width: 100%;
+    max-height: 32px;
+    max-width: 38px;
+}
+nav ul li a{
+    padding: 5px;
+    display: block;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px rgb(85, 83, 83);
+}
+
+.hero-heading{
+    margin-top: 100px;
+}
+.hero-heading button{
+    background-color: #FF001D;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-top: 30px;
+}
+.hero-heading .active-btn{
+    background-color: transparent;
+    border: 1px solid rgb(155, 155, 155);
+    margin-left: 5px;
+    
+}
+.btn-div{
+    display:flex ;
+}
+main{
+    width: 100%;
+}
+.product{
+    margin: 0 10%;
+    border-radius: 10px;
+    background-color: rgb(23, 214, 214);
+    padding: 20px 0;
+}
+.product img{
+    width: 100%;
+}
+.product-text{
+    padding: 10px;
+}
+.product-price {
+    margin-left: 20px;
+}
+.product-price button{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color:  #FF001D;
+    
+}
